@@ -4,11 +4,11 @@ using OrchardCore.Modules.Manifest;
     Name = "YuSheng OrchardCore Workflow Notify Telegram",
     Author = "spike",
     Website = "",
-    Version = "0.0.1"
+    Version = "0.0.7"
 )]
 
 [assembly: Feature(
-    Id = "YuSheng OrchardCore Workflow Notify Telegram",
+    Id = "YuSheng.OrchardCore.Workflow.Notify.Telegram",
     Name = "YuSheng OrchardCore Workflow Notify Telegram",
     Description = "Provides Notify Telegram ",
     Dependencies = new[] { "OrchardCore.Workflows" },

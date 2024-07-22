@@ -6,7 +6,7 @@ using YuSheng.OrchardCore.Workflow.Notify.Telegram.Drivers;
 
 namespace YuSheng.OrchardCore.Workflow.Notify.Telegram
 {
-    [Feature("OrchardCore.Workflows")]
+    [Feature("YuSheng.OrchardCore.Workflow.Notify.Telegram")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)

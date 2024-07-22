@@ -8,7 +8,7 @@
 	    Provides notify telegram in workflow.
 	</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.0.6</Version>
+    <Version>0.0.7</Version>
     <Authors>spike</Authors>
     <Company>spike</Company>
     <Copyright>spike @ 2024</Copyright>
