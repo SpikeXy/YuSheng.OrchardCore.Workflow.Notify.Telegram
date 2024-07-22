@@ -2,7 +2,6 @@
 
 The plugin is to use robots to send Telegram messages
 
-
 ---
 
 ![20240722082229](./20240722082229.jpg)
