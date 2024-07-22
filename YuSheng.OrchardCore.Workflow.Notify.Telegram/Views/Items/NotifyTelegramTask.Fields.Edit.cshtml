@@ -1,0 +1,24 @@
+@using YuSheng.OrchardCore.Workflow.Notify.Telegram.ViewModels;
+@model NotifyTelegramTaskViewModel
+
+<div class="form-group" asp-validation-class-for="Token">
+    <label asp-for="Token">@T["Token"]</label>
+    <input asp-for="Token" class="form-control" />
+    <span asp-validation-for="Token"></span>
+    <span class="hint">@T["Input token"]</span>
+</div>
+
+<div class="form-group" asp-validation-class-for="GroupId">
+    <label asp-for="GroupId">@T["GroupId"]</label>
+    <input asp-for="GroupId" class="form-control" />
+    <span asp-validation-for="GroupId"></span>
+    <span class="hint">@T["Input groupid"]</span>
+</div>
+
+<div class="form-group" asp-validation-class-for="HtmlMessage">
+    <label asp-for="HtmlMessage">@T["HtmlMessage"]</label>
+    <textarea asp-for="HtmlMessage" class="form-control" placeholder=""></textarea>
+    <span asp-validation-for="HtmlMessage"></span>
+    <span class="hint">@T["The html message to send."]</span>
+</div>
+
