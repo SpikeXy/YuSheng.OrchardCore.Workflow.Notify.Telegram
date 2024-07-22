@@ -3,20 +3,20 @@
   <PropertyGroup>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <TargetFramework>net8.0</TargetFramework>
-    <Title>YuSheng.OrchardCore.Workflow.Notify.Telegram</Title>
+    <Title>YuSheng.OrchardCore.Workflow.Notify.QiyeWechat</Title>
     <Description>
-	    Provides notify telegram in workflow.
-	</Description>
+      Provides qiyeWechat notify in workflow.
+    </Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.0.6</Version>
+    <Version>0.0.1</Version>
     <Authors>spike</Authors>
     <Company>spike</Company>
     <Copyright>spike @ 2024</Copyright>
-    <PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Notify.Telegram</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Notify.QiyeWechat</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>horse-face-front-view-sketch.png</PackageIcon>
-    <RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Notify.Telegram</RepositoryUrl>
-    <PackageTags>orchardcore,telegram,notify,workflow</PackageTags>
+    <RepositoryUrl>https://github.com/SpikeXy/YuSheng.OrchardCore.Workflow.Notify.QiyeWechat</RepositoryUrl>
+    <PackageTags>orchardcore,notify,qiyewechat,workflow</PackageTags>
   </PropertyGroup>
 
 
@@ -47,7 +47,6 @@
     <PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.3" />
     <PackageReference Include="OrchardCore.ResourceManagement.Abstractions" Version="1.8.3" />
     <PackageReference Include="OrchardCore.Workflows.Abstractions" Version="1.8.3" />
-    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
   </ItemGroup>
 
 </Project>

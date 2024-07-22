@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\YuSheng.OrchardCore.Workflow.Notify.QiyeWechat\YuSheng.OrchardCore.Workflow.Notify.QiyeWechat.csproj" />
     <ProjectReference Include="..\YuSheng.OrchardCore.Workflow.Notify.Telegram\YuSheng.OrchardCore.Workflow.Notify.Telegram.csproj" />
   </ItemGroup>
 
